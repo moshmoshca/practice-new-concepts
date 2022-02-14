@@ -1,0 +1,37 @@
+.grid-container {
+    display: grid;
+    width: 100%;
+    height: 950px;
+    grid-template: repeat(3, 1fr) / repeat(12, 1fr);
+    gap: 10px;
+}
+
+.item {
+    border-radius: 12px;
+    background-color: beige;
+}
+
+.header {
+    background-color: #252525;
+    grid-column: 1 / 13;
+}
+
+.red {
+    background-color: #AC5660;
+    grid-column: 2 / 10;
+}
+
+.dark-blue {
+    background-color: #2D6B7E;
+    grid-column: 10 / 12;
+}
+
+.light-blue {
+    background-color: #529FB7;
+    grid-column: 2 / 5;
+}
+
+.yellow {
+    background-color: #E7B969;
+    grid-column: 5 / 12;
+}
