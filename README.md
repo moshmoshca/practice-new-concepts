@@ -1,3 +1,6 @@
-# CSS Grid practice
+# Practice Repo
 
-This is my first attempt to use CSS Grid.
+I made this repository so I could stay organized.
+
+From now on, this will contain all the projects to learn new concepts
+or practice to cement ideas.
