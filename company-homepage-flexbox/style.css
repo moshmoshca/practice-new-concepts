@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&family=Roboto+Serif:ital,wght@0,100;0,400;0,500;1,700&display=swap');
+
+/* ---------------- UNIVERSAL STYLE ------------------*/
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 300;
+}
+
+.title {
+    font-family: 'Roboto Serif', sans-serif;
+    font-weight: 500;
+}
+
+.button {
+    border: 0;
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+    background-color: #633977;
+
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+
+.button:hover {
+    background-color: #b678c0;
+}
+
+/* ------------------------ BODY --------------------------- */
+/* --------------------------------------------------------- */
+
+
+/* ------------------------ HEADER --------------------------- */
+
+#nav-menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #adefd8;
+
+    padding: 1rem 2rem;
+}
+
+.logo-container a {
+    display: flex;
+    align-items: center;
+
+    text-decoration: none;
+}
+
+.beauty-logo img {
+    height: 80px;
+}
+
+.logo {
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #215261;
+    
+}
+
+.nav-menu-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-nav {
+    display: flex;
+    gap: 4rem;
+    
+    list-style: none;
+}
+
+.main-nav a {
+    text-decoration: none;
+
+    font-size: 1rem;
+    font-weight: 600;
+    color: #215261;
+}
+
+/* ------------------------ HERO --------------------------- */
+
+#hero {
+    background-image: url(https://images.unsplash.com/photo-1612817288484-6f916006741a);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    height: 70vh;
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+  }
+
+.hero-text-container {
+    width: 80%;
+    background-color: hsla(100, 100%, 100%, 0.6);
+    text-align: center;
+    padding: 2.5rem 0;
+}
+
+.hero-text {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.hero-text .heading {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    color: #252525;
+
+    margin: 1rem 0;
+}
+
+.tagline {
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 3.2rem;
+    color: #633977;
+    letter-spacing: 0;
+}
+
+.hero-text p {
+    font-weight: 600;
+
+    margin-bottom: 2rem;
+}
+
+
