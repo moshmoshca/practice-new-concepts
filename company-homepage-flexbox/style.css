@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&family=Roboto+Serif:ital,wght@0,100;0,400;0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&family=Roboto+Serif:ital,wght@0,100;0,400;0,500;1,700&display=swap');
 
 /* ---------------- UNIVERSAL STYLE ------------------*/
 
@@ -12,7 +12,8 @@ body {
 
 .title {
     font-family: 'Roboto Serif', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 2.5rem;
 }
 
 .button {
@@ -113,10 +114,10 @@ align-items: center;
 }
 
 .hero-text .heading {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 900;
     text-transform: uppercase;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
     color: #252525;
 
     margin: 1rem 0;
@@ -135,4 +136,20 @@ align-items: center;
     margin-bottom: 2rem;
 }
 
+/* -------------------- Mission Statement --------------------- */
 
+.mission-container {
+    text-align: center;
+
+    padding: 4rem 6rem;
+}
+
+.mission-container .title {
+    color: #215261;
+    padding: 0 3rem;
+}
+
+.mission-container p {
+    padding: 0 6rem;
+    font-size: 1.2rem;
+}
