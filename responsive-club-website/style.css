@@ -90,7 +90,8 @@
 }
 
 .hero-img, 
-.quote-img {  /* This will add style to quote images */
+.quote-img,
+.join-img {  /* This will add style to quote images */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -225,3 +226,40 @@ background-image: url(./images/juntos-03.jpg);
 
 /* ---------------------- Join Rotary ---------------------- */
 
+#join-rotary {
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.join-img {
+    height: 190px;
+    background-image: url(./images/rotary-sdq-group-03.jpg);
+
+    margin-bottom: 3rem;
+}
+
+.join-rotary-text .title {
+    font-size: 3.125rem;
+}
+
+.join-para {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #58585A;
+    line-height: 1.875rem;
+
+    margin-bottom: 4rem;
+}
+
+.button {
+    padding: 0.7rem 4rem;
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    background-color: #F7A81B;
+    border-radius: 30px;
+
+    text-decoration: none;
+}
+
+/* ---------------------- FOOTER ---------------------- */
