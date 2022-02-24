@@ -1,6 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:wght@300;400;600;700&display=swap');
+
+/* ---------------- UNIVERSAL STYLES ----------------- */
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #0067c8;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+#nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #0067C8;
+}
+
+.rotary-logo img {
+    width: 11rem;
+
+    padding: 1rem;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.main-nav li {
+    list-style: none;
+}
+
+.main-nav a {
+    text-decoration: none; 
+
+    color: white;
 }
