@@ -10,6 +10,9 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+
+/* ----------------  Navbar  ----------------- */
+
 #nav-menu {
     display: flex;
     flex-direction: column;
@@ -38,4 +41,30 @@
     text-decoration: none; 
 
     color: white;
+}
+
+/* ---------------- Hero ----------------- */
+
+#hero {
+    background-color: #0067C8;
+
+    height: 55vh;
+}
+
+.hero-info .heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 3.25rem;
+
+    text-align: center;
+
+    padding: 3rem 1rem;
+}
+
+.hero-info .highlight {
+    display: block;
+    color: #F7A81B;
+
+    font-size: 5.125rem;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
