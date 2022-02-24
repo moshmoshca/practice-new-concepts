@@ -343,3 +343,38 @@
 }
 
 /* ------------------ Contact Info ------------------- */
+
+#contact {
+    text-align: center;
+    background-color: #c5f0e1;
+
+    padding: 4rem;
+}
+
+#contact .title {
+    color: #215261;
+    font-weight: 700;
+
+    margin-bottom: 1.5rem;
+}
+
+#contact p {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+#contact .phone-number {
+    font-size: 1.5rem;
+    color: #215261;
+    margin-bottom: 1.5rem;
+}
+
+#footer {
+    background-color: #633977;
+    color: white;
+    font-style: italic;
+    text-align: center;
+
+    padding: 2rem;
+}
