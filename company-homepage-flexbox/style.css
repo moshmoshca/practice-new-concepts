@@ -28,6 +28,7 @@
 
 .button:hover {
     background-color: #b678c0;
+    cursor: pointer;
 }
 
 /* ------------------------ BODY --------------------------- */
@@ -288,16 +289,57 @@
 }
 
 .team-motto .motto-title {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin-bottom: 0.7rem;
+
+    color: #FAD790;
 }
 
 .team-motto .motto {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 300;
     letter-spacing: 0.09rem;
-    line-height: 1.5rem;
+    line-height: 1.3rem;
 
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
 }
+
+/* ------------------ CTA ------------------- */
+
+#cta {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    padding: 8rem 0;
+}
+
+.cta-container {
+    background-color:#215261;
+    padding: 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cta-container .title {
+    color: #FAD790;
+    font-size: 2rem;
+    font-weight: 500;
+
+    margin-bottom: 1.5rem;
+}
+
+.button.cta {
+    width: 200px;
+
+    background-color: #abddcc;
+    color: #252525;
+}
+
+.button.cta:hover {
+    background-color:#d3b9df;
+}
+
+/* ------------------ Contact Info ------------------- */
