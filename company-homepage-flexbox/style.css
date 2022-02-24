@@ -7,7 +7,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
-    font-size: 300;
 }
 
 .title {
@@ -206,6 +205,7 @@
     text-align: center;
 
     padding: 0.5rem 0;
+    
     background-color: rgba(74, 41, 90, 0.6);
     border-radius: 4px;
     color: white;
@@ -215,4 +215,89 @@
 
 #team {
     background-color:#633977;
+    color: white;
+
+    padding: 8rem 0;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    position: relative;
+}
+
+.team-container {
+    margin-top: 2.6rem;
+}
+
+.team-container .title {
+    margin-bottom: 2.6rem;
+}
+
+.team-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+
+    padding: 0 5rem;
+}
+
+.team-member {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-basis: 150px;
+}
+
+.team-profile {
+    width: 150px;
+    height: 150px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border-radius: 50%;
+    border: 8px solid #3a2344;
+
+    margin-bottom: 1rem;
+}
+
+.team-profile.one {
+    background-image: url(https://images.unsplash.com/photo-1607746882042-944635dfe10e);
+}
+
+.team-profile.two {
+    background-image: url(https://images.unsplash.com/photo-1511945863317-d60e146e9016?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1155&q=80);
+}
+
+.team-profile.three {
+    background-image: url(https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+}
+
+.team-motto {
+    width: 50%;
+    padding: 0.8rem;
+    background-color: #382044;
+
+    position: absolute;
+
+    top: 4%;
+    right: 0;
+}
+
+.team-motto .motto-title {
+    font-size: 1.4rem;
+    margin-bottom: 0.7rem;
+}
+
+.team-motto .motto {
+    font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: 0.09rem;
+    line-height: 1.5rem;
+
+    width: 90%;
+    margin: 0 auto;
 }
