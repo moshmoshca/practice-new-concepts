@@ -378,3 +378,7 @@
 
     padding: 2rem;
 }
+
+#footer a {
+    color: white;
+}
