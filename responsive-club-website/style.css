@@ -436,5 +436,47 @@ background-image: url(./images/juntos-03.jpg);
 
      /* Mission statement */
 
-     
+     #our-mission {
+        max-width: 80%;
+        margin: 3rem auto;
+
+        padding: 4rem 4rem;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+     }
+
+     .mission-text {
+         width: 50%;
+         gap: 0;
+         padding: 0;
+
+         text-align: left;
+     }
+
+     .mission-text .title {
+         margin-bottom: 1rem;
+     }
+
+     .mission-statement {
+         margin-bottom: 0;
+
+         font-size: 1rem;
+         line-height: 1.8rem;
+     }
+
+     .img-bg {
+        width: 17rem;
+        height: 14rem;
+        top: 3rem;
+        right: 4.1rem;
+     }
+
+     .mission-img {
+        width: 19rem;
+        height: 12rem;
+
+        float: right;
+        margin-right: 1.2rem;
+     }
 }
