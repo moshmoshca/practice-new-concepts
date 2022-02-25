@@ -283,7 +283,7 @@ background-image: url(./images/juntos-03.jpg);
 /* -------------------------------------------------------------- */
 /*------------------------ Media Queries ------------------------ */
 
-@media screen and (min-width:650px) {
+@media screen and (min-width: 650px) {
     
     /* Navbar */
 
@@ -383,4 +383,54 @@ background-image: url(./images/juntos-03.jpg);
     .join-rotary-text {
         padding: 0 4rem;
     }
+}
+
+@media screen and (min-width: 1080px) {
+
+    /* navbar */
+
+    #nav-menu {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .main-nav {
+        justify-content: flex-end;
+        gap: 4rem;
+    }
+
+    /* hero */
+
+    .hero-info .highlight {
+        display: inline;
+        margin-right: 2rem;
+    }
+
+    .hero-img-grid {
+        height: 50vh;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(12, 1fr);
+
+        gap: 1rem;
+    }
+
+    .hero-img.one {
+        grid-row: 1 / span 6;
+        grid-column: 4 / span 4;
+    }
+ 
+    .hero-img.two {
+     grid-row: 1 / span 3;
+     grid-column: 1 / span 3;
+     }
+ 
+     .hero-img.three {
+         grid-row: 1 / span 6;
+         grid-column: 8 / span 5;
+     }
+ 
+     .hero-img.four {
+         grid-row: 4 / span 3;
+         grid-column: 1 / span 3;
+     }
 }
