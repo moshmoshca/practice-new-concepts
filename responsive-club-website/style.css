@@ -479,4 +479,81 @@ background-image: url(./images/juntos-03.jpg);
         float: right;
         margin-right: 1.2rem;
      }
+
+     /* Quote */
+
+     #quote {
+         margin: 9rem 9rem;
+         margin-bottom: 3rem;
+
+         max-height: 65vh;
+     }
+
+     .quote-img-container {
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        top: -12rem;
+        left: 4rem;
+        right: 3rem;
+        gap: 1rem;
+     }
+
+     .quote-img {
+         width: 16rem;
+         height: 11rem;
+         margin-bottom: 0;
+     }
+
+     .quote {
+         padding-top: 12rem;
+         width: 47.5rem;
+     }
+
+     .founder {
+         margin-top: 2rem;
+         font-size: 1.2rem;
+     }
+
+     /* Join Rotary */
+
+     #join-rotary {
+        margin: 0 9rem; 
+        padding: 3rem 0;
+        margin-bottom: 4rem;
+
+        display: flex;
+        justify-content: center;
+     }
+
+     .join-img {
+         width: 100%;
+         height: 17rem;
+         margin-bottom: 0;
+     }
+
+     .join-rotary-text .title {
+         font-size: 4rem;
+         margin-bottom: 1rem;
+     }
+
+     .join-para {
+         padding: 0 2.8rem;
+         margin-bottom: 2rem;
+     }
+
+     /* Footer */
+     
+     .footer-logo img {
+         width: 16.25rem;
+     }
+
+     #footer .main-nav {
+        gap: 6rem;
+     }
+
+     #footer a {
+         font-size: 1.25rem;
+     }
+
 }
