@@ -89,7 +89,8 @@
     background-color: #F7A81B;
 }
 
-.hero-img, 
+.hero-img,
+.mission-img,
 .quote-img,
 .join-img {  /* This will add style to quote images */
     background-repeat: no-repeat;
@@ -325,4 +326,61 @@ background-image: url(./images/juntos-03.jpg);
         grid-column: 3 / span 2;
     }
 
+    /* Mission Statement */
+
+    .mission-statement {
+        margin-bottom: 6rem;
+    }
+
+    .img-bg {
+        top: 20.8rem;
+        right: 0;
+        height: 23rem;
+        width: 32.93rem;
+    }
+
+    .mission-img {
+       margin: 0 3rem;
+       height: 18.8rem;
+    }
+
+    .mission-text {
+        padding: 1rem 4rem;
+    }
+
+    /* Quote */
+
+    #quote {
+        height: 98vh;
+    }
+
+    .quote-img-container {
+        padding: 6rem 4rem;
+    }
+
+    .quote {
+        padding: 0 4rem;
+        padding-top: 32rem;
+
+        width: 35.75rem;
+        margin: 0 auto;
+    }
+
+    .founder {
+        margin-top: 4rem;
+    }
+
+    /* Join rotary */
+
+    #join-rotary {
+        padding: 6rem 4rem;
+    }
+
+    .join-img {
+        height: 20.75rem;
+    }
+
+    .join-rotary-text {
+        padding: 0 4rem;
+    }
 }
